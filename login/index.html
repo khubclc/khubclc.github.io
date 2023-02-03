@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7a303f3a82.js" crossorigin="anonymous"></script>
-    <title>PSHS-CLC Knowledge Hub</title>
+    <title>Sign In & Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/dost.png" type="image/x-icon">
 </head>
@@ -16,9 +16,10 @@
               <form action="https://khub.clc.pshs.edu.ph/login/index.php/" method="POST" class="sign-in-form">
                   <img src="img/dost.png" class="pshslogo" alt="logo">
                   <h2 class="title">Sign in</h2>
+                  <p id="error" class="hidden">Invalid Username or Password</p>
                   <div class="input-field">
                       <i class="fas fa-user"></i>
-                      <input type="text" placeholder="Email address" name="username">
+                      <input type="text" placeholder="Username" name="username">
                   </div>
                   <div class="input-field">
                       <i class="fas fa-lock"></i>
